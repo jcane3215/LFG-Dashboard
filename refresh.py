@@ -9,7 +9,7 @@ import os
 DB_PATH = "local_data.db"           # Path to your existing SQLite database
 TABLE_NAME = "api_records"          # Main table name in SQLite
 PRIMARY_KEY = "id"                  # Unique record ID field to deduplicate on
-API_URL = "http://127.0.0.1:8000/api/v1/records"  # Your mock_api endpoint
+API_URL = "http://127.0.0.1:8000/api/v1/records"  # Mock_api endpoint
 
 # ==========================================
 # 2. REFRESH & DEDUPLICATE FUNCTION
